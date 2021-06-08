@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Stories>
+  <Story id="1">
+    <AuthorText>Вы стоите прямо посреди улицы, дорога перегорожена полицейской лентой, тусклый свет давно разбитых фонарей перебивается красной мигалкой, перед вами на земле лежит безжизненное тело. 
+\n \n Капли дождя разбавляют разлившуюся кровь и уносят ее в разинутые рты вечно голодных канализационных стоков…
+    </AuthorText>
+    <Dialogue>
+      <Persons></Persons>
+      <Dialogues></Dialogues>
+      <Clouds></Clouds>
+    </Dialogue>
+    <ButtonsNumber>1</ButtonsNumber>
+    <Background>StoryStreetW1</Background>    
+    <FirstButtonText>Далее#Black#1</FirstButtonText>
+    <FirstButtonRef>Page 2</FirstButtonRef>
+    <SecondButtonText></SecondButtonText>
+    <SecondButtonRef></SecondButtonRef>
+    <ThirdButtonText></ThirdButtonText>
+    <ThirdButtonRef></ThirdButtonRef>
+  </Story>
+  <Story id="2">
+    <AuthorText></AuthorText>
+    <Dialogue>
+      <Persons>Clive#-100</Persons>
+      <Dialogues>Снова этот дождь… \n его капли вонзаются \n в мостовую как миллионы \n ножей, пронзают насквозь \n этот город, подмывают \n его фундамент… </Dialogues>
+      <Clouds>Mind#7#Left#Right</Clouds>
+    </Dialogue>
+    <ButtonsNumber>1</ButtonsNumber>
+    <Background>StoryStreetD1</Background>
+
+    <FirstButtonText>Далее#White#1</FirstButtonText>
+    <FirstButtonRef>Page 1</FirstButtonRef>
+    <SecondButtonText></SecondButtonText>
+    <SecondButtonRef></SecondButtonRef>
+    <ThirdButtonText></ThirdButtonText>
+    <ThirdButtonRef></ThirdButtonRef>
+  </Story>
+</Stories>

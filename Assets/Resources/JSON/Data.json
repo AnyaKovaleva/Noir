@@ -1,0 +1,41 @@
+{
+    "stories":[
+        {
+            "storyID": 1,
+            "authorText": "Вы стоите прямо посреди улицы, дорога перегорожена полицейской лентой, тусклый свет давно разбитых фонарей перебивается красной мигалкой, перед вами на земле лежит безжизненное тело. \n \n Капли дождя разбавляют разлившуюся кровь и уносят ее в разинутые рты вечно голодных канализационных стоков…",
+            "dialogue": {
+                "person": "",
+                "dialogue": "",
+                "cloud": ""
+            },
+            "buttonNumber": 1,
+            "background": "StoryStreetW1",
+            "firstButtonText": "Далее#Black#1",
+            "firstButtonRef": "Page 2",
+            "secondButtonText": "",
+            "secondButtonRef": "",
+            "thirdButtonText": "",
+            "thirdButtonRef": ""
+        },
+
+        {
+            "storyID": 2,
+            "authorText": "",
+            "dialogue": {
+                "person": "Clive#-100",
+                "dialogue": "Снова этот дождь… \n его капли вонзаются \n в мостовую как миллионы \n ножей, пронзают насквозь \n этот город, подмывают \n его фундамент…",
+                "cloud": "Mind#7#Left#Right"
+            },
+            "buttonNumber": 1,
+            "background": "Mind#7#Left#Right",
+            "firstButtonText": "Далее#White#1",
+            "firstButtonRef": "Page 1",
+            "secondButtonText": "",
+            "secondButtonRef": "",
+            "thirdButtonText": "",
+            "thirdButtonRef": ""
+        }
+
+    ]
+
+}

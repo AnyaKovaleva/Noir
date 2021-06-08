@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameOptions>
+  <Game id="1">
+    <GameType>Intuition</GameType>
+    <LevelName>IntuitionScene</LevelName>
+    <suspect1>Saymon</suspect1>
+    <suspect2>Djek</suspect2>
+    <suspect3>Vladimir</suspect3>
+    <suspect4>Ernest</suspect4>
+    <villain>Brenson</villain>
+    <turns>3</turns>
+    <StoryIdTransfer>1</StoryIdTransfer>
+  </Game>
+</GameOptions>

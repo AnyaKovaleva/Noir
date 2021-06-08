@@ -1,0 +1,16 @@
+{
+    "GameID": 1,
+    "GameType": "Intuition",
+    "LevelName": "IntuitionScene",
+    "suspects": [
+        "Saymon",
+        "Djek",
+        "Vladimir",
+        "Ernest"
+    ],
+    "villain": "Brenson",
+    "turns": 3,
+    "StoryIdTransfer": 1
+
+
+}
