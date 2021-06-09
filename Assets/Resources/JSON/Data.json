@@ -27,7 +27,7 @@
                 "cloud": "Mind#7#Left#Right"
             },
             "buttonNumber": 1,
-            "background": "Mind#7#Left#Right",
+            "background": "StoryStreetD1",
             "firstButtonText": "Далее#White#1",
             "firstButtonRef": "Page 1",
             "secondButtonText": "",

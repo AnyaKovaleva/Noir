@@ -187,6 +187,7 @@ public class StroyManager : MonoBehaviour
     //Изменяет Бэкграунд
     private void SetBackground(string _backgroundName)
     {
+        Debug.Log("background should be " + _backgroundName);
         backGround.sprite = Resources.Load<Sprite>("Sprites/StorySprites/Background/" + _backgroundName);
     }
 
@@ -256,7 +257,7 @@ public class StroyManager : MonoBehaviour
             GameObject character;
             character = Resources.Load<GameObject>("Dialogs/Prefabs/Person");
             GameObject dispChar = Instantiate(character, Anchors[_num].transform);
-            dispChar.GetComponent<Image>().sprite = Resources.Load<Sprite>("Dialogs/Images/Persons/" + personOptions[0]);
+            dispChar.GetComponent<Image>().sprite = Resources.Load<Sprite>("Images/Persons/" + personOptions[0]);
             dispChar.transform.localPosition = new Vector2(0, float.Parse(personOptions[1]));                       
             personList.Add(dispChar);
             _num += 1;
