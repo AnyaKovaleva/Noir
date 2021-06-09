@@ -6,6 +6,7 @@ using System.Xml;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System;
+using System.Text;
 
 [Serializable]
 public struct Dialogue
@@ -70,10 +71,8 @@ public class DataBase : MonoBehaviour
     void Start()
     {
         TextAsset jasonText = Resources.Load<TextAsset>("JSON/Data");
-
         string s = jasonText.text;
         Debug.Log(s);
-
         stories = JsonUtility.FromJson<Stories>(s);
 
         //Instantiate(Transfer);
@@ -92,9 +91,12 @@ public class DataBase : MonoBehaviour
         //XmlDocument xDoc = new XmlDocument();
         //xDoc.LoadXml(Resources.Load<TextAsset>("XML/Data").text);
         //XmlElement xRoot = xDoc.DocumentElement;
+        storyID = 1;
+        Debug.Log("stories length = " + stories.stories.Length);
 
         foreach (StoryStruct story in stories.stories)
         {
+
             if(story.storyID == storyID)
             {
                 SetFirstButtonText(story.firstButtonText);
@@ -199,6 +201,7 @@ public class DataBase : MonoBehaviour
     //Текст и эвенты кнопок
     public void SetFirstButtonText(string text)
     {
+        Debug.Log("first button text = " + text);
         button1.GetComponentInChildren<Text>().text = text;
         //GameObject.Find("Canvas/Layout1/Button1/Text").GetComponent<Text>().text = text;
     }

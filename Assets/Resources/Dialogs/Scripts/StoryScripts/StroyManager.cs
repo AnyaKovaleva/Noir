@@ -5,8 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Xml;
 using System;
-
-
+using System.Text;
 
 public class StroyManager : MonoBehaviour
 {
@@ -43,11 +42,9 @@ public class StroyManager : MonoBehaviour
 
     private void Start()
     {
-        TextAsset jasonText = Resources.Load<TextAsset>("JSON/Data");
-
+        TextAsset jasonText = Resources.Load<TextAsset>("JSON/Data");     
         string s = jasonText.text;
         Debug.Log(s);
-
         stories = JsonUtility.FromJson<Stories>(s);
 
        // LoadXml();
@@ -82,10 +79,12 @@ public class StroyManager : MonoBehaviour
                 
                 if(story.dialogue.person != "")
                 {
+                    Debug.Log("person = " + story.dialogue.person);
                     SetPersons(story.dialogue.person);
                 }
                 if(story.dialogue.dialogueText != "")
                 {
+                    Debug.Log("dialogueText = " + story.dialogue.dialogueText);
                     ParseDialogue(story.dialogue.dialogueText);
                 }
                 if(story.dialogue.cloud != "")

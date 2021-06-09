@@ -6,6 +6,8 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using System.Threading.Tasks;
 using System.Xml;
+using System.Text;
+using System.IO;
 
 public class FindPair : MonoBehaviour
 {
@@ -56,15 +58,18 @@ public class FindPair : MonoBehaviour
 
         //XmlElement xRoot = xDoc.DocumentElement;
 
-        TextAsset jasonText = Resources.Load<TextAsset>("JSON/MiniGameMeta");
+        //TextAsset jasonText = Resources.Load<TextAsset>("JSON/MiniGameMeta");
 
+        //        string s = jasonText.text;
+        //      Debug.Log(s);
+        TextAsset jasonText = Resources.Load<TextAsset>("JSON/MiniGameMeta");
         string s = jasonText.text;
         Debug.Log(s);
 
         MemoGame memoGame = JsonUtility.FromJson<MemoGame>(s);
         Debug.Log(memoGame.GameID + memoGame.GameType);
 
-     //   gameID = 1;
+        gameID = 1;
 
 
         if (memoGame.GameID == gameID)
@@ -87,6 +92,11 @@ public class FindPair : MonoBehaviour
                     break;
                 }
 
+            }
+
+            for(int i =0; i < participants.Length; i++)
+            {
+                Debug.Log("part " + i + "  = " + participants[i].name);
             }
 
             turns = memoGame.turns;
