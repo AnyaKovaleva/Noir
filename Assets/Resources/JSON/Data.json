@@ -1,13 +1,15 @@
 ﻿{
-    "stories":[
+    "stories": [
         {
             "storyID": 1,
             "authorText": "Вы стоите прямо посреди улицы, дорога перегорожена полицейской лентой, тусклый свет давно разбитых фонарей перебивается красной мигалкой, перед вами на земле лежит безжизненное тело. \n \n Капли дождя разбавляют разлившуюся кровь и уносят ее в разинутые рты вечно голодных канализационных стоков…",
-            "dialogue": {
-                "person": "",
-                "dialogueText": "",
-                "cloud": ""
-            },
+            "dialogues": [
+                {
+                    "person": "",
+                    "dialogueText": "",
+                    "cloud": ""
+                }
+            ],
             "buttonNumber": 1,
             "background": "StoryStreetW1",
             "firstButtonText": "Далее#Black#1",
@@ -21,15 +23,158 @@
         {
             "storyID": 2,
             "authorText": "",
-            "dialogue": {
-                "person": "Clive#-100",
-                "dialogueText": "Снова этот дождь… \n его капли вонзаются \n в мостовую как миллионы \n ножей, пронзают насквозь \n этот город, подмывают \n его фундамент…",
-                "cloud": "Mind#7#Left#Right"
-            },
+            "dialogues": [
+                {
+                    "person": "Clive#-30",
+                    "dialogueText": "Снова этот дождь… \n его капли вонзаются \n в мостовую как миллионы \n ножей, пронзают насквозь \n этот город, подмывают \n его фундамент…",
+                    "cloud": "Mind#7#Left#Right"
+                },
+                {
+                    "person": "",
+                    "dialogueText": "Надеюсь, когда-нибудь\n его подмоет окончательно\n и город смоет в океан…\n он заслужил такую\n участь, как и все\n живущие тут… \n\nХотя даже океана\n не хватит, тобы отмыть\n его от грязи, что царит\n на улицах.",
+                    "cloud": "Mind#11#Left#Right"
+                }
+            ],
             "buttonNumber": 1,
             "background": "StoryStreetD1",
             "firstButtonText": "Далее#White#1",
-            "firstButtonRef": "Page 1",
+            "firstButtonRef": "Page 3",
+            "secondButtonText": "",
+            "secondButtonRef": "",
+            "thirdButtonText": "",
+            "thirdButtonRef": ""
+        },
+
+        {
+            "storyID": 3,
+            "authorText": "",
+            "dialogues": [
+                {
+                    "person": "Clive#-30",
+                    "dialogueText": "Этот город прогнил\n насквозь. И пока нас\n не смыло, я очищаю его,\n как могу. И меня не надо\n вызывать стуком по\n посуде и дурацкой\n песенкой – я приду сам…",
+                    "cloud": "Mind#7#Left#Right"
+                },
+                {
+                    "person": "",
+                    "dialogueText": "…и настучу тебе по голове, если ты плохо себя ведешь. Нет, я не добрый коп, и не злой, я так же плох, как этот город, но я меньшее из зол, я – детектив в городе порока.",
+                    "cloud": "Mind#8#Left#Right"
+                }
+            ],
+            "buttonNumber": 1,
+            "background": "StoryStreetD1",
+            "firstButtonText": "Далее#White#1",
+            "firstButtonRef": "Page 4",
+            "secondButtonText": "",
+            "secondButtonRef": "",
+            "thirdButtonText": "",
+            "thirdButtonRef": ""
+        },
+
+        {
+            "storyID": 4,
+            "authorText": "",
+            "dialogues": [
+                {
+                    "person": "Clive#-100",
+                    "dialogueText": "Снова какой-то негодяй оставил свой кровавый след, нужно разобраться, кто избавил этот город от очередной заблудшей души. Мне нужно осмотреться",
+                    "cloud": "Dialogue#7#Left#Right"
+                }
+            ],
+            "buttonNumber": 1,
+            "background": "StoryStreetD1",
+            "firstButtonText": "осмотреть труп#White#1",
+            "firstButtonRef": "Page 5",
+            "secondButtonText": "",
+            "secondButtonRef": "",
+            "thirdButtonText": "",
+            "thirdButtonRef": ""
+        },
+
+        {
+            "storyID": 5,
+            "authorText": "Вы подходите к трупу и внимательно осматриваете его.",
+            "dialogues": [
+                {
+                    "person": "",
+                    "dialogueText": "",
+                    "cloud": ""
+                }
+            ],
+            "buttonNumber": 1,
+            "background": "StoryStreetW1",
+            "firstButtonText": "далее#Black#1",
+            "firstButtonRef": "Page 6",
+            "secondButtonText": "",
+            "secondButtonRef": "",
+            "thirdButtonText": "",
+            "thirdButtonRef": ""
+        },
+
+        {
+            "storyID": 6,
+            "authorText": "",
+            "dialogues": [
+                {
+                    "person": "Clive#-30",
+                    "dialogueText": "Несколько колотых ран, нанесены хаотично, скорее всего, работал не профессионал, а какой-нибудь бродяга, коих полно на улице.",
+                    "cloud": "Mind#6#Left#Right"
+                },
+                {
+                    "person": "",
+                    "dialogueText": "Убийство произошло буквально час назад, еще можно найти преступника по горячим следам. У жертвы отсутствует кошелек, а наш бандит наверняка пропивает добычу в ближайшем баре. Тут как раз есть одна такая дыра – «Унылый хорек», наведаюсь-ка я туда.",
+                    "cloud": "Mind#12#Left#Right"
+                }
+            ],
+            "buttonNumber": 1,
+            "background": "StoryStreetD1",
+            "firstButtonText": "Далее#White#1",
+            "firstButtonRef": "Page 7",
+            "secondButtonText": "",
+            "secondButtonRef": "",
+            "thirdButtonText": "",
+            "thirdButtonRef": ""
+        },
+
+        {
+            "storyID": 7,
+            "authorText": "Клайв идет в сторону бара. Вы подходите к знакомому полицейскому, сразу видно – он офицер, но не самого старшего звания.",
+            "dialogues": [
+                {
+                    "person": "",
+                    "dialogueText": "",
+                    "cloud": ""
+                }
+            ],
+            "buttonNumber": 1,
+            "background": "StoryStreetW1",
+            "firstButtonText": "опросить полицейского#Black#2",
+            "firstButtonRef": "Page 8",
+            "secondButtonText": "",
+            "secondButtonRef": "",
+            "thirdButtonText": "",
+            "thirdButtonRef": ""
+        },
+
+        {
+            "storyID": 8,
+            "authorText": "",
+            "dialogues": [
+                {
+                    "person": "Clive#0",
+                    "dialogueText": "Что тут случилось?",
+                    "cloud": "Dialogue#1#Left#Right"
+                },
+
+                {
+                    "person": "Ernest#-100#Left",
+                    "dialogueText": "И тебе доброй ночи, Клайв.",
+                    "cloud": "Dialogue#2#Right#Left"
+                }
+            ],
+            "buttonNumber": 1,
+            "background": "StoryStreetD1",
+            "firstButtonText": "Далее#White#1",
+            "firstButtonRef": "Page 7",
             "secondButtonText": "",
             "secondButtonRef": "",
             "thirdButtonText": "",
